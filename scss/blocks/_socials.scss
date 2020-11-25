@@ -1,6 +1,4 @@
-// .nav {
-// }
-.nav__list {
+.socials {
   display: flex;
   align-items: center;
   margin-top: 0;
@@ -8,23 +6,21 @@
   padding-left: 0;
   list-style-type: none;
 }
-.nav__item {
-  margin-right: 35px;
+.socials__item {
+  margin-right: 12px;
   &:last-child {
     margin-right: 0;
   }
 }
-.nav__link {
+.socials__link {
   display: block;
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #ffffff;
   &:hover {
-    color: #ffd600;
+    opacity: 0.8;
   }
   &:active {
     opacity: 0.6;
   }
+}
+.socials__img {
+  display: block;
 }
