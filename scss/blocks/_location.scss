@@ -1,0 +1,34 @@
+.location {
+  padding-top: 45px;
+  text-align: center;
+  position: relative;
+}
+.location__contact {
+  position: absolute;
+  top: 40%;
+  padding-bottom: 66px;
+  padding-top: 48px;
+}
+.location__link-img {
+  height: 760px;
+  object-fit: cover;
+}
+@include responsive(800) {
+  .location__bottom {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .location__contact {
+    max-width: 100%;
+    position: static;
+    transform: none;
+    margin-bottom: 85px;
+  }
+  .location__link-img {
+    order: 2px;
+    max-width: 100%;
+    height: auto;
+  }
+  .location__box {
+  }
+}
